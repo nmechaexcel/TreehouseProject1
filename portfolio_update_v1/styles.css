@@ -79,21 +79,24 @@ header .profile-image:hover {
 .tag {
   background-color: #efefef;
   color: black;
-  padding: 10px;
-  border-radius: 5px;
+  font-size: medium;
+  padding: 0px 5px;
+  border-radius: 10px;
   display: table;
   margin: 10px auto;
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
 }
 .card {
+  color: white;
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: #fff url('images/background-2.jpg');
+  background-size: cover;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
